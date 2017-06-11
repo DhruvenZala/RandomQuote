@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RandomQuote</string>
+    <string name="initialQuote">Quotes are just Strings</string>
+    <string name="initialAuthor">- Anonymous</string>
+</resources>

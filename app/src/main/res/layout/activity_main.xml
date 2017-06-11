@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    tools:context="com.example.admin.randomquote.MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/ripple">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/circle"
+        android:layout_margin="15dp"
+            android:padding="10dp"
+        >
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:id="@+id/quote"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/initialQuote"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingRight="30dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/author"
+            android:text="@string/initialAuthor"
+            android:textSize="15sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
