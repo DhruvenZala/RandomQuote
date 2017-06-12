@@ -21,7 +21,9 @@
         android:orientation="vertical"
         android:background="@drawable/circle"
         android:layout_margin="15dp"
-            android:padding="10dp"
+        android:padding="10dp"
+        android:translationZ="10dp"
+            android:rotationX="10"
         >
 
 
